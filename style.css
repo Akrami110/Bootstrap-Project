@@ -1,7 +1,7 @@
 /* Home page */
 
 body {
-  background-image: url('../images/pudding.jpg');
+  background-image: url('pudding.jpg');
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
