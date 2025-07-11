@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact & About Us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CDN Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- favicon link  -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Bootstrap Icon Link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- css File Link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <img src="images/logo.jpg" alt="Logo" width="70" height="70" class="rounded-circle" class="pl-5">
+            <a class="navbar-brand">Foodie Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurants</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menus.html">Menus</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact & about us.html">Contact & About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Form Section -->
+    <div class="container form-container" style="margin-top: 100px;">
+        <div class="glass-box">
+            <h3 class="text-center mb-4">Order & Contact Form</h3>
+            <form>
+
+                <!-- Full Name -->
+                <div class="mb-3">
+                    <label for="fullName" class="form-label">Full Name</label>
+                    <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+                </div>
+
+                <!-- Email -->
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                </div>
+
+                <!-- Address -->
+                <div class="mb-3">
+                    <label for="address" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="address" placeholder="Enter your address">
+                </div>
+
+                <!-- Dropdown with Checkboxes for Restaurants -->
+                <div class="mb-3 custom-dropdown text-start">
+                    <label class="form-label">Choose Restaurants</label>
+                    <button class="form-control dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Select Restaurants
+                    </button>
+                    <ul class="dropdown-menu p-3">
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="pizzaPlus"><label class="form-check-label" for="pizzaPlus">Pizza Palace</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="burgerWorld"><label class="form-check-label" for="burgerWorld">Burger
+                                    World</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="sushiHaven"><label class="form-check-label" for="sushiHaven">Sushi House</label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="kebabHouse"><label class="form-check-label" for="kebabHouse">Kebab
+                                    Corner</label></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Dropdown with Checkboxes for Available Foods -->
+                <div class="mb-3 custom-dropdown text-start">
+                    <label class="form-label">Choose Available Foods</label>
+                    <button class="form-control dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                        Select Foods
+                    </button>
+                    <ul class="dropdown-menu p-3">
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="pepperoni"><label class="form-check-label" for="pepperoni">Pepperoni
+                                    Pizza</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="veggie"><label
+                                    class="form-check-label" for="veggie">Veggie Pizza</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="chickenBurger"><label class="form-check-label" for="chickenBurger">Chicken
+                                    Burger</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="salmon"><label
+                                    class="form-check-label" for="salmon">Salmon Sushi</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox" id="shrimp"><label
+                                    class="form-check-label" for="shrimp">Shrimp Sushi</label></div>
+                        </li>
+                        <li>
+                            <div class="form-check"><input class="form-check-input" type="checkbox"
+                                    id="chickenKebab"><label class="form-check-label" for="chickenKebab">Chicken
+                                    Kebab</label></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Suggestion Box -->
+                <div class="mb-4">
+                    <label class="form-label">Suggestions / Complaints / Feedback</label>
+                    <textarea class="form-control" rows="3"
+                        placeholder="Write your suggestions or feedback here..."></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="btn btn-primary w-100">Submit Order</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="container form-container">
+        <div class="glass-box mt-4">
+            <h4 class="text-center mb-3">About Us</h4>
+            <p class="text-muted">
+                At Foodie Hub, we bring together the finest flavors from around the world.
+                Our platform allows you to browse top-rated restaurants, explore diverse menus,
+                and place your food orders easily. Each dish is prepared with love, quality,
+                and freshness guaranteed. Fast delivery and excellent customer service are our top priorities.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light text-center py-4 mt-5">
+        <div class="container">
+            <h5">Contact Us</h5>
+                <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mb-2">
+                    <div><i class="bi bi-telephone-fill"></i> +93 700 000 000</div>
+                    <div><i class="bi bi-geo-alt-fill"></i> Herat, Afghanistan</div>
+                    <div><i class="bi bi-envelope-fill"></i> info@foodiehub.af</div>
+                </div>
+
+                <!-- Follow Us Row -->
+                <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+                    <span class="fw">Follow Us:</span>
+                    <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-light"><i class="bi bi-envelope-fill"></i></a>
+                </div>
+
+                <small>© 2025 Foodie Hub all rights reserved | Designed by Asma Akrami</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

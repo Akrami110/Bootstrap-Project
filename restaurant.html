@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Restaurants</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- css files link -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- favicon link  -->
+  <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body class="d-flex flex-column">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <img src="images/logo.jpg" alt="Logo" width="70" height="70" class="rounded-circle" class="pl-5">
+      <a class="navbar-brand">Foodie Hub</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="restaurant.html">Restaurants</a></li>
+          <li class="nav-item"><a class="nav-link" href="menus.html">Menus</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact & about us.html">Contact & About Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Restaurant Cards -->
+  <section class="restaurant-section container" style="margin-bottom: 70px;">
+    <h2 class="text-center text-white mb-5 rainbow-text">Our Featured Restaurants</h2>
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card bg-glass h-100 p-2">
+          <img src="images/pizza.jpg" class="card-img-top rounded custom-img" alt="Pizza">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://img.icons8.com/fluency/48/pizza.png" class="restaurant-logo" alt="Pizza Logo">
+              <h5 class="card-title mb-0">Pizza Palace</h5>
+            </div>
+            <p class="card-text">Delicious handmade pizza with fresh ingredients.</p>
+            <div class="rating mb-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+            </div>
+            <a href="menus.html" class="btn btn-outline-light w-100">View Menu</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card bg-glass h-100 p-2">
+          <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/hamburger-1238246_1280.jpg"
+            class="card-img-top rounded custom-img" alt="Burger">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://img.icons8.com/fluency/48/hamburger.png" class="restaurant-logo" alt="Burger Logo">
+              <h5 class="card-title mb-0">Burger World</h5>
+            </div>
+            <p class="card-text">Juicy burgers with crispy fries and cold drinks.</p>
+            <div class="rating mb-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star"></i><i class="far fa-star"></i>
+            </div>
+            <a href="menus.html" class="btn btn-outline-light w-100">View Menu</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card bg-glass h-100 p-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Sushi_platter.jpg"
+            class="card-img-top rounded custom-img" alt="Sushi">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://img.icons8.com/color/48/sushi.png" class="restaurant-logo" alt="Sushi Logo">
+              <h5 class="card-title mb-0">Sushi House</h5>
+            </div>
+            <p class="card-text">Authentic Japanese sushi and sashimi prepared daily.</p>
+            <div class="rating mb-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i><i class="far fa-star"></i>
+            </div>
+            <a href="menus.html" class="btn btn-outline-light w-100">View Menu</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="card bg-glass h-100 p-2">
+          <img src="images/kebab.jpg" class="card-img-top rounded custom-img" alt="Restaurant">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-2">
+              <img src="https://img.icons8.com/color/48/kebab.png" class="restaurant-logo" alt="Kebab Logo">
+              <h5 class="card-title mb-0">Kebab Corner</h5>
+            </div>
+            <p class="card-text">Middle Eastern grilled kebabs with fresh naan and salad.</p>
+            <div class="rating mb-2">
+              <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+              <i class="far fa-star"></i><i class="far fa-star"></i>
+            </div>
+            <a href="menus.html" class="btn btn-outline-light w-100">View Menu</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light text-center py-4 mt-5">
+    <div class="container">
+      <h5">Contact Us</h5>
+        <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-4 mb-2">
+          <div><i class="bi bi-telephone-fill"></i> +93 700 000 000</div>
+          <div><i class="bi bi-geo-alt-fill"></i> Herat, Afghanistan</div>
+          <div><i class="bi bi-envelope-fill"></i> info@foodiehub.af</div>
+        </div>
+
+        <!-- Follow Us Row -->
+        <div class="d-flex justify-content-center align-items-center gap-3 mb-3">
+          <span class="fw">Follow Us:</span>
+          <a href="#" class="text-light"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="text-light"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+
+        <small>© 2025 Foodie Hub all rights reserved | Designed by Asma Akrami</small>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
